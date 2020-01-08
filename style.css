@@ -21,26 +21,12 @@
  .p-desc{
     margin: 0;
     padding: .25em 0 .4em;
-    position: relative;
     font-weight: 300;
     font-size: .9em;
     color: #77838f;
  }
-.container-fluid {
-    padding: 0px;
- }
- /* .addMargin-{
-     margin-left: 10em !important;
-     margin-right: 10em !important;
- } */
- .addPadding {
-    padding: .25em !important;
-    }
-.removeMargin {
-   margin-left:  500px;
-   margin-right:  500px;
-}
-    /* Test */
+
+
     .box{
         width: 100%;
         background: transparent;

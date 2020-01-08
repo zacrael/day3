@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="style.css">
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -20,11 +20,13 @@
         $(document).ready(function(){
             $("#child-tuition").toggle();
             $("#child-auto").toggle();
+            $(".box").toggle();
         });
         </script>
 
     <!---->
    <!--box animate-->
+   
     <script>
     $(document).ready(function(){
         $("#btn-animate").click(function(){
@@ -35,15 +37,6 @@
     });
     
     </script>
-        <!-- <script>
-            $(document).ready(function(){
-                $("#btn-animate").click(function(){
-                    $("#child-tuition").css("display","block")
-               
-                });
-            });
-            </script>
-         -->
          <script>
             $(document).ready(function(){
                 $("#tuition").click(function(){
@@ -67,12 +60,10 @@
     <!--select tr to change color-->
     <script>
         $(document).ready(function(){
-            // Highlight table rows appearing at odd places
+            
             $("tr:odd").css("background", "yellow");
-          
-            // Highlight table rows appearing at even places
             $("tr:even").css("background", "orange");
-            // Highlight first paragraph element
+           
         });
         </script>
         <!--submit button see input value in alert for my testing-->
@@ -80,25 +71,12 @@
         $(document).ready(function(){
             $("#submit-btn").click(function(){
               alert("email: " + $("#email").val() + "password: " + $("#password").val() );
-            //   console.log("Value: " + $("#email" + "value:" +$("#password")).val() )
+            //   console.log( )
             
             });
           });
           </script>
-          <!--add text to paragraph-->
-          <!-- <script>
-            $(document).ready(function(){
-                // Append all paragraphs on document ready
-                $("p").append(' <a href="#">read more...</a>');
-                
-                // Append a div container on button click
-                $("p").click(function(){
-                   $(".p-desc").append("");
-                });
-            });
-            </script> -->
-
-          <!---->
+         
 </head>
 <body>
     <div class="container d-flex  p-0">
@@ -115,20 +93,18 @@
             videoEnglish
         </span> 
         <span c lass="pr-1" >
-           Star tUp
+           Start Up
         </span> 
     </div>
       </div>
     
 
-      <!-- <button id="click_button">
-        Welcome to JQuery world.
-    </button> -->
+     
     <div class="container p-0 ">
         <h3 class="h3-header"> Understanding Withcenter franchise</h1>
         <p class="p-header"> In order to understand the Weisser franchise, please bear in mind the following important points.</p>
         <div class="row m-0" >
-            <div class="col-sm-12 col-md-4 addPadding"> 
+            <div class="col-sm-12 col-md-4 "> 
                   <div class="item">
                     <div class="photo">
                       <img src="lowesttuition.jpeg" alt="lowesttuition" class="w-100">
@@ -152,7 +128,7 @@
                  
               </div>
                 
-                <div class="col-sm-12 col-md-4  addPadding"> 
+                <div class="col-sm-12 col-md-4 "> 
                   <div class="item">
                     <div class="photo">
                       <img src="automation.jpg" alt="lowesttuition" class="w-100" >  
@@ -175,7 +151,7 @@
                   </div>
                  </div>
                
-               <div class="col-sm-12  col-md-4 addPadding">
+               <div class="col-sm-12  col-md-4 ">
                    <div class="item">
                      <div class="photo">
                       <img src="revenue.jpeg" alt="lowesttuition"  class="w-100">
