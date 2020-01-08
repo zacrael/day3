@@ -1,0 +1,231 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="stlye.css">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!---test-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---->
+    <title>Document</title>
+    <!--hide paragraph-->
+    <script>
+        $(document).ready(function(){
+            $("#child-tuition").toggle();
+            $("#child-auto").toggle();
+        });
+        </script>
+
+    <!---->
+   <!--box animate-->
+    <script>
+    $(document).ready(function(){
+        $("#btn-animate").click(function(){
+            $(".box").animate({
+                width: 'toggle'
+            });
+        });
+    });
+    
+    </script>
+        <!-- <script>
+            $(document).ready(function(){
+                $("#btn-animate").click(function(){
+                    $("#child-tuition").css("display","block")
+               
+                });
+            });
+            </script>
+         -->
+         <script>
+            $(document).ready(function(){
+                $("#tuition").click(function(){
+                        $("#child-tuition").toggle()
+                    });
+                });
+        
+            </script>
+    <!--2-->
+    <script>
+        $(document).ready(function(){
+            $("#auto").click(function(){
+                    $("#child-auto").toggle()
+                });
+            });
+    
+        </script>
+
+    <!---->
+         
+    <!--select tr to change color-->
+    <script>
+        $(document).ready(function(){
+            // Highlight table rows appearing at odd places
+            $("tr:odd").css("background", "yellow");
+          
+            // Highlight table rows appearing at even places
+            $("tr:even").css("background", "orange");
+            // Highlight first paragraph element
+        });
+        </script>
+        <!--submit button see input value in alert for my testing-->
+        <script>
+        $(document).ready(function(){
+            $("#submit-btn").click(function(){
+              alert("email: " + $("#email").val() + "password: " + $("#password").val() );
+            //   console.log("Value: " + $("#email" + "value:" +$("#password")).val() )
+            
+            });
+          });
+          </script>
+          <!--add text to paragraph-->
+          <!-- <script>
+            $(document).ready(function(){
+                // Append all paragraphs on document ready
+                $("p").append(' <a href="#">read more...</a>');
+                
+                // Append a div container on button click
+                $("p").click(function(){
+                   $(".p-desc").append("");
+                });
+            });
+            </script> -->
+
+          <!---->
+</head>
+<body>
+    <div class="container d-flex  p-0">
+        <div class="row mr-auto ">
+        <div class="logo  ">
+            <span class="pl-3">Withcenter</span>
+        </div>
+        </div>
+        <div class="d-none d-sm-block ">
+        <span >
+            Franchise
+        </span >  
+        <span>
+            videoEnglish
+        </span> 
+        <span c lass="pr-1" >
+           Star tUp
+        </span> 
+    </div>
+      </div>
+    
+
+      <!-- <button id="click_button">
+        Welcome to JQuery world.
+    </button> -->
+    <div class="container p-0 ">
+        <h3 class="h3-header"> Understanding Withcenter franchise</h1>
+        <p class="p-header"> In order to understand the Weisser franchise, please bear in mind the following important points.</p>
+        <div class="row m-0" >
+                <div class="col-sm-12 col-md-4 addPadding"> 
+                <img src="lowesttuition.jpeg" alt="lowesttuition" class="w-100">
+                <h4>Lowest Tuition</h4>
+                <p class="p-desc"> We advertise 'Native speaker instructor 20 times a month 10,000 won'. Even if it is inexpensive, it is too lethal and cheap. The point is that the instructor will earn enough money because the instructor will pay most of the tuition, which is 75%. If you are a Filipino instructor, you can earn 15,000 pesos (about 300,000 won) a month. If you work eight hours a day, you can have 40 minutes of ten-minute classes (including 10 minutes break every hour). <span  id="tuition"class="text-primary">Read More....</span></p>
+                <p id="child-tuition" class="p-desc"> In addition to satisfying students with very low tuition fees, we are also able to satisfy our instructors with very high payouts. Generally speaking (even in the Philippines) an English instructor can hardly take his or her salary at a fixed salary or similar level, but his instructor takes that five times. Something front and back is not right? It will not make any sense if the student does not pay the fee directly and the student will only pay 10,000 won a month, but it will be difficult to understand how the instructor can bring the high allowance. </p></div>
+                
+                <div class="col-sm-12 col-md-4  addPadding"> 
+                <img src="automation.jpg" alt="lowesttuition" class="w-100" >   
+                <h4>Automation system</h4>
+                <p class="p-desc"> At Withcenter, managers or managers can not schedule, cancel or change classes on behalf of students. Only the student has to do it himself and it is as well automated as it is. <span id="auto"class="text-primary">Read More...</span> </p>
+                <p id="child-auto" class="p-desc"> After you first developed a 100% automation system 12 years ago, other competitors are trying to follow the Weisserin system, but they are not easily following. In particular, Weissner is the only company in the world that has recruited lecturers from home tutors and schools from around the world and has a direct system ecosystem. The instructor will set the tuition fee as he / she likes, the student can charge the tuition fee as much as the credit card, and the student can reserve, cancel or change freely. 100% automated management LMS system that does not require. It was only possible in WiseNeur and it is possible only in WiseNeon now. For reference, there is no phone number in CATOK English, and we do not consult you by phone. It's so intuitive and easy to use. </p>
+                 </div>
+               
+                 <div class="col-sm-12  col-md-4 addPadding">
+                <img src="revenue.jpeg" alt="lowesttuition"  class="w-100">
+                <h4>Revenue Sharing</h4>
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ab blanditiis? Fugiat cumque aliquid recusandae hic eligendi atque? Nemo recusandae possimus accusantium. Totam in quis perspiciatis mollitia et dicta quos.</p>
+                </div>
+                
+                <div class="col-sm-12  col-md-4 addPadding">
+                <img src="directdealservice.jpeg" alt="lowesttuition"  class="w-100">
+                <h4>Direct Deal Services</h4>
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ab blanditiis? Fugiat cumque aliquid recusandae hic eligendi atque? Nemo recusandae possimus accusantium. Totam in quis perspiciatis mollitia et dicta quos.</p>.
+                </div>
+                
+                <div class="col-sm-12  col-md-4 addPadding">
+                <h4>High Qualitiy English Education Service</h4>
+                <img src="highqualityenglsh.jpeg" alt="lowesttuition"  class="w-100">
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ab blanditiis? Fugiat cumque aliquid recusandae hic eligendi atque? Nemo recusandae possimus accusantium. Totam in quis perspiciatis mollitia et dicta quos.</p>.
+                </div>
+                
+                <div class="col-sm-12  col-md-4 addPadding">
+                <h4>PWA</h4>
+                <img src="pwa.jpeg" alt="lowesttuition"  class="w-100">
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ab blanditiis? Fugiat cumque aliquid recusandae hic eligendi atque? Nemo recusandae possimus accusantium. Totam in quis perspiciatis mollitia et dicta quos.</p>.
+                </div>
+                 <button id="btn-animate" class="btn btn-primary">Toggle Animation</button>
+           
+        </div>
+      </div>
+      <!--table sample-->
+      <!-- <div class=""></div> -->
+      <div class="container  p-0 box">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            <th scope="col">status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>amir glen</td>
+            <td>feliciano</td>
+            <td>amirglenfeliciano@gmail.com</td>
+            <td>accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>pending</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>pending</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+      <!--boostrap form--->
+      <div class="container p-0 ">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+</body>
+</html>
