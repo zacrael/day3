@@ -1,5 +1,4 @@
 
-
 *{
    font-family: Helvetica,Arial,sans-serif;
 }
@@ -28,11 +27,6 @@ h4{
     font-size: .9em;
     color: #77838f;
  }
-
-.banner-img{
-   height: 1em;
-   width: 100%;;
-}
 
 .pointer{
    cursor: pointer;
